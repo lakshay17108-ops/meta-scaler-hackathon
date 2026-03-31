@@ -1,0 +1,10 @@
+name: smartlogistics
+version: 0.1.0
+description: "Smart Logistics package delivery environment with OpenEnv API compatibility."
+entry_point: app.py
+typed_models:
+  - smartlogistics.models
+endpoints:
+  reset: /reset
+  step: /step
+  state: /state
